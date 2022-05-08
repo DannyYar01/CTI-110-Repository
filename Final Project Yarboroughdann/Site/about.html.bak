@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>About</title>
+	
+	
+	</head>
+	<body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="order.html">Orders</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+		<h1>About</h1>
+    <img src ='Sneaker_Red_Logo.png'>
+
+<main>
+    <h2> As a Sneaker selling brand we look to resell the shoes in our collection at a better price and quality than you would find at any other place, our catalog includes some old exclusives that are only comes around at certain parts of the year
+    </h2>
+
+</main>
+	</body>
+</html>

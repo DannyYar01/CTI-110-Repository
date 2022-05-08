@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="registration.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="registration.html">Registration</a></li>              
+          <li><a href="products.html">Products</a></li>      
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </nav>
+    <h1>Customer Registration</h1>
+    <main>
+        <br></br>
+        <form action="confirmation.html" method="get"
+    	name="confirmation_form" id="confirmation_form">
+            
+        	<label for="date">Date:</label>
+        	<input type="text" name="date" id="date"><br>
+
+            <br><label>Customer type:</label>
+        <input type="radio" name="customer" id="business" value="business" checked>Business:	        	
+		<input type="radio" name="customer" id="personal" value="personal">Personal:
+		<input type="radio" name="customer" id="government" value="government">Government:<br/>
+
+            <label>Payment type:</label>
+        <input type="radio" name="payment" id="po" value="po" checked>PO:	        	
+		<input type="radio" name="payment" id="cash" value="cash">Cash:
+		<input type="radio" name="payment" id="credit" value="credit">Credit:<br>
+
+            <br><label>Customer Information</label><br/><br>
+            
+            <fieldset>
+                <label for="email_address">Email Address:</label>
+                <input type="text" name="email_address" id="email_address"><br>
+
+                <label for="email_address2">Re-enter Email Address:</label>
+                <input type="text" name="email_address2" id="email_address2"><br>
+
+                <label for="first_name">First Name:</label>
+        	    <input type="text" name="first_name" id="first_name"><br>
+
+                <label for="last_name">Last Name:</label>
+        	    <input type="text" name="last_name" id="last_name"><br>
+
+                <label for="phone">Phone:</label>
+        	    <input type="text" name="phone" id="phone"><br>
+
+                <label for="date">2-Character State Code:</label>
+        	    <input type="state_code" name="state_code" id="state_code"><br>
+
+                <label for="date">5-Digit Zip Code:</label>
+        	    <input type="text" name="zip_code" id="zip_code"><br>
+            </fieldset>
+
+            <input type="button" id="submit_request" value="Submit Registration">
+            <input type="button" id="reset" value="Reset" onclick="resetForm()">
+	</form>
+    <script>
+        function resetForm(){
+            document.getElementById('date').value = "";
+            document.getElementById('email_address').value = "";
+            document.getElementById("email_address2").value = "";
+            document.getElementById("first_name").value = "";
+            document.getElementById('last_name').value = "";
+            document.getElementById('phone').value = "";
+            document.getElementById("state_code").value = "";
+            document.getElementById("zip_code").value = "";
+        }
+    </script>
+    </main>
+</body>
+</html>

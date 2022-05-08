@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>HOME</title>
+	</head>
+	<body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="calendar.html">Sales Calendar</a></li>
+        <li><a href="admin.html">Administrative Login</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="order.html">Orders</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+		<h1>Sneaker Emporium</h1>
+    <img src ='Sneaker_Red_Logo.png'>
+	</body>
+</html>
